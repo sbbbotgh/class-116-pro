@@ -1,0 +1,28 @@
+body{
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+.btn-warning{
+    color: #232323;
+    background-color: #ffe600;
+}
+
+.btn-warning:hover{
+    color: #232323;
+    background-color: #ffcc25;
+}
+
+canvas {
+	margin-top: 30px;
+	animation: 3s infinite goto;
+}
+
+@keyframes goto{
+    from {
+        box-shadow: 1px 1px 38px yellow;
+    }
+    to{
+        box-shadow: 1px 1px 38px red;
+    }
+}
